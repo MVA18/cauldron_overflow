@@ -9,6 +9,7 @@
         "ext-iconv": "*",
         "league/commonmark": "^2.2",
         "sensio/framework-extra-bundle": "^6.2",
+        "sentry/sentry-symfony": "^4.2",
         "symfony/asset": "6.0.*",
         "symfony/console": "6.0.*",
         "symfony/dotenv": "6.0.*",
@@ -71,7 +72,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "6.0.*"
         }
     },
